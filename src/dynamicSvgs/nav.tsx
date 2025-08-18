@@ -1,4 +1,6 @@
-export const navSvg = {
+import type { JSX } from "react";
+
+export const navSvg: Record<string, JSX.Element> = {
     menu: <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M18 2.5H0V0.5H18V2.5Z" fill="currentColor"/>
 <path d="M18 8.5H0V6.5H18V8.5Z" fill="currentColor"/>

@@ -1,0 +1,43 @@
+{
+    "hero": {
+        "left": {
+            "h5": "Welcome to chairy",
+            "h2": {
+                "span1": "Best Furniture",
+                "span2": "Collection for your",
+                "span3": "interior."
+            },
+            "cta": {
+                "text": "Shop Now",
+                "icon": "arrow",
+                "to": "#"
+            }
+        },
+        "right": {
+            "bg": "/png/BGShapes.png",
+            "funitures": [
+                {
+                    "discount": {
+                        "percentage": "54%",
+                        "text": "Discount"
+                    },
+                    "img": "/png/Product1.png"
+                },
+                {
+                    "discount": {
+                        "percentage": "34%",
+                        "text": "Discount"
+                    },
+                    "img": "/png/Product2.png"
+                },
+                {
+                    "discount": {
+                        "percentage": "44%",
+                        "text": "Discount"
+                    },
+                    "img": "/png/Product3.png"
+                }
+            ]
+        }
+    }
+}
