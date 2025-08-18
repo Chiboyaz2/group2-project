@@ -1,9 +1,9 @@
 import { heroSvg } from "@/dynamicSvgs/hero";
-import jsonData from "@data/hero.json";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ChevronLeft, ChevronRight } from "lucide-react"; // arrow icons
+import Services from "./Services";
 
+import jsonData from "@data/hero.json";
 const hero = jsonData.hero;
 
 const Hero = () => {
@@ -26,7 +26,8 @@ const Hero = () => {
   };
 
   return (
-    <div className="w-full relative px-[5%] lg:ps-[201px] lg:pr-[189px] h-fit lg:h-[850px] bg-[#F0F2F3] rounded-bl-[48px] rounded-br-[48px] ">
+   <>
+    <div className="w-full relative px-[5%] lg:ps-[201px] lg:pr-[189px] h-fit lg:h-[850px] bg-[#F0F2F3] rounded-bl-[48px] rounded-br-[48px] lg:w-[95%] mx-auto ">
       {/* container */}
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr]">
         {/* left */}
@@ -100,7 +101,7 @@ const Hero = () => {
       </button>
 
       {/* pagination dots */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-3 z-20">
+      <div className="absolute bottom-[111px] left-1/2 -translate-x-1/2 flex gap-3 z-20">
         {hero.right.funitures.map((_: any, i: number) => (
           <button
             key={i}
@@ -111,7 +112,13 @@ const Hero = () => {
           ></button>
         ))}
       </div>
+      {/* services */}
     </div>
+    <div className="mt-[-75px] relative z-[22] ">
+      <Services />
+
+    </div>
+   </>
   );
 };
 
