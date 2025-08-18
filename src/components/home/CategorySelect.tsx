@@ -21,7 +21,8 @@ export default function CategorySelect() {
         className="flex items-center w-[176px] h-[47px] border border-gray-400 rounded-md px-6 py-4 gap-4 bg-white text-[#272343] whitespace-nowrap"
       >
         {/* Menu Icon on the left */}
-        <Menu className="w-[18px] h-[14px] text-[#272343]" />
+        <Menu className="min-w-[24px] max-w-[24px] h-[24px] text-[#272343]" />
+
         <span>{selectedCategory}</span>
       </button>
 
