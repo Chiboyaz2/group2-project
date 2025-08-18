@@ -1,7 +1,10 @@
+import Navbar from "@/components/Navbar"
 
 const Pages = () => {
   return (
-    <div>Pages</div>
+    <div>
+      <Navbar />
+      Pages</div>
   )
 }
 

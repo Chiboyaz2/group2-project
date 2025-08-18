@@ -1,6 +1,7 @@
 // src/router.tsx
 import { createBrowserRouter } from "react-router-dom";
 import { lazy } from "react";
+const Pages = lazy(() => import("@/pages/Pages"));
 const Home = lazy(() => import("../pages/Home"));
 const About = lazy(() => import("../pages/About"));
 const Shop = lazy(() => import("../pages/Shop"));
@@ -25,8 +26,12 @@ export const router = createBrowserRouter(
     element: <Shop />,
   },
   {
-    path: "/products",
+    path: "/product",
     element: <Products />,
+  },
+  {
+    path: "/pages",
+    element: <Pages />,
   },
   {
     path: "/signin",
