@@ -1,0 +1,65 @@
+{
+    "hero": {
+        "left": {
+            "h5": "Welcome to chairy",
+            "h2": {
+                "span1": "Best Furniture",
+                "span2": "Collection for your",
+                "span3": "interior."
+            },
+            "cta": {
+                "text": "Shop Now",
+                "icon": "arrow",
+                "to": "#"
+            }
+        },
+        "right": {
+            "bg": "/png/BGShapes.png",
+            "funitures": [
+                {
+                    "discount": {
+                        "percentage": "54%",
+                        "text": "Discount"
+                    },
+                    "img": "/png/Product1.png"
+                },
+                {
+                    "discount": {
+                        "percentage": "34%",
+                        "text": "Discount"
+                    },
+                    "img": "/png/Product2.png"
+                },
+                {
+                    "discount": {
+                        "percentage": "44%",
+                        "text": "Discount"
+                    },
+                    "img": "/png/Product3.png"
+                }
+            ]
+        },
+        "services": [
+            {
+                "icon": "/svg/discount.svg",
+                "h6": "Discount",
+                "p": "Every week new sales"
+            },
+            {
+                "icon": "/svg/delivery.svg",
+                "h6": "Free Delivery",
+                "p": "100% Free for all orders"
+            },
+            {
+                "icon": "/svg/support.svg",
+                "h6": "Great Support 24/7",
+                "p": "We care your experiences"
+            },
+            {
+                "icon": "/svg/security.svg",
+                "h6": "secure Payment",
+                "p": "100% Secure Payment Method"
+            }
+        ]
+    }
+}
