@@ -1,0 +1,76 @@
+{
+    "nav": {
+        "categories": {
+            "icon": "menu",
+            "options": [
+                "All Categories"
+            ]
+        },
+        "links": [
+            {
+                "text": "Home",
+                "to": "/"
+            },
+            {
+                "text": "Shop",
+                "to": "/shop"
+            },
+            {
+                "text": "Product",
+                "to": "/product"
+            },
+            {
+                "text": "Pages",
+                "to": "/pages"
+            },
+            {
+                "text": "About",
+                "to": "/about"
+            }
+        ],
+        "contacts": {
+            "text": "Contact",
+            "tel": "(808) 555-0111"
+        }
+    },
+    "headline": {
+        "boxa": {
+            "icon": "/svg/check.svg",
+            "text": "Free shipping on all orders over $50"
+        },
+        "boxb": {
+            "languages": [
+                "Eng",
+                "Fr"
+            ],
+            "link1": {
+                "text": "Faqs",
+                "to": "#"
+            },
+            "link2": {
+                "text": "Need Help",
+                "to": "#",
+                "icon": "/svg/info.svg"
+            }
+        }
+    },
+    "preNav": {
+        "boxa": {
+            "icon": "/logo.svg",
+            "text": "Comforty"
+        },
+        "boxb": {
+            "placeholder": "Search here...",
+            "icon": "/svg/search.svg"
+        },
+        "boxc": {
+            "cart": {
+                "icon": "/svg/cart.svg",
+                "text": "Cart",
+                "itemss": 2
+            },
+            "icon2": "/svg/heart.svg",
+            "icon3": "/svg/user.svg"
+        }
+    }
+}
